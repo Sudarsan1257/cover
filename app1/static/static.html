@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOOK COVER PAGE</title>
+    <link rel="stylesheet" href="book.css" type="text/css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: rgba(14, 147, 56, 0.936);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .book-cover {
+            width: 800px;
+            height: 1000px;
+            background-image: url('HST-Redshift-Image.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 50px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .book-title h1 {
+            font-size: 3.5rem;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            color: rgb(8, 5, 5);
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px; 
+        }
+        .book-tagline h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: rgb(1, 0, 0);
+            background-color: rgba(255, 255, 255, 0.7); 
+            padding: 10px;
+        }
+        .book-author {
+            text-align: end;
+            font-weight: 400;
+            color: rgb(76, 19, 181);
+        }
+        .book-author h2 {
+            font-size: 2em;
+            color: rgba(0, 0, 0, 0.973);
+            background-color: rgba(180, 70, 70, 0.7);
+            padding: 10px;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background-color: red;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="book-cover">
+        <div class="book-title">
+            <hr>
+            <h1><i>The Infinite Expanse</i></h1>
+            <hr>
+        </div>
+        <div class="book-tagline">
+            <h2>Exploring Boundless Horizons Beyond the Stars </h2>
+        </div>
+        <div class="book-author">
+            <img src="image.jpg" width="180" height="180" alt="Author's Image">
+            <h2>Sudarsan.A</h2>
+        </div>
+    </div>
+</body>
+</html>
